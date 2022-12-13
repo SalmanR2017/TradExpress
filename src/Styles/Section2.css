@@ -1,0 +1,26 @@
+.sec2 {
+  background-color: #e5e5e5;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.portion {
+  border-right: 2px solid rgb(207, 200, 200);
+  width: 100%;
+  padding: 10px;
+  border-bottom: 2px solid rgb(207, 200, 200);
+}
+
+.inner-por {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 800px) {
+  .sec2 {
+    flex-direction: row;
+  }
+
+}
