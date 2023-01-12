@@ -1,25 +1,20 @@
 import React from "react";
-import "../Styles/Buy.css";
+import "../Styles/sell.css";
 import { Link } from "react-router-dom";
 
-const Buy = () => {
+const Sell = () => {
   return (
-    <div className="buy">
+    <div className="sell">
       <h1>Buy/Sell Instantly</h1>
       <div className="ind-buss">
-        <Link to="/buy" style={{ backgroundColor: "white" }}>
-          Buy
+        <Link to="/buy">Buy</Link>
+        <Link to="/sell" style={{ backgroundColor: "white" }}>
+          Sell
         </Link>
-        <Link to="/sell">Sell</Link>
       </div>
       <div>
-        <label htmlFor="coin to buy">Coin to Buy</label>
+        <label htmlFor="coin to buy">Coin to Sell</label>
         <input placeholder="Bitcoin(BTC)"></input>
-        {/* <select name="" id="" style={{width: '100%'}}>
-          <option value="">BTC</option>
-          <option value="">BNB</option>
-          <option value="">ETH</option>
-        </select> */}
       </div>
       <div>
         <label htmlFor="currency">Currency</label>
@@ -29,7 +24,7 @@ const Buy = () => {
       <div className="amount">
         <label htmlFor="amount">Amount</label>
         <div className="inner-amount">
-          <input placeholder="NGN"></input>
+          <input placeholder="Amount"></input>
           <input placeholder="300,000,000"></input>
         </div>
       </div>
@@ -40,4 +35,4 @@ const Buy = () => {
   );
 };
 
-export default Buy;
+export default Sell;

@@ -6,10 +6,11 @@ import '../Styles/navbar1.css'
 const Navbar1 = () => {
      const style = {
        backgroundColor: "#7c20be",
+       
      };
   return (
     <Navbar expand="lg" style={style}>
-      <Container>
+      <Container className="nav-bar">
         <Link to='/'>
           <img src={tradExpressLogo} alt="" />
         </Link>

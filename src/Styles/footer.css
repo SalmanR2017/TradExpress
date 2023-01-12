@@ -1,0 +1,29 @@
+.footer {
+  background: linear-gradient(0deg, #c5c0c0, #c5c0c0),
+    linear-gradient(0deg, #ede9ef, #ede9ef);
+  padding: 1em;
+  display: grid;
+  grid-template-columns:1fr  ;
+}
+@media (min-width: 500px) {
+  .footer {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .inner-footer{
+    text-align: left;
+  }
+  .sm-icons{
+    display: flex;
+    width: 70%;
+    /* border: 2px solid red; */
+
+    justify-content: space-around;
+  }
+}
+.inner-footer {
+  /* border: 2px solid red; */
+  width: 100%;
+}
+.inner-footer p {
+  width: 100%;
+}

@@ -1,0 +1,32 @@
+.me-auto a{
+  text-decoration: none;
+  color: white;
+  padding: .4em 2em;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.me-auto a:hover{
+  background-color: white;
+  color: blueviolet;
+}
+@media (min-width: 992px) {
+  .me-auto a{
+    border: 1px solid white;
+
+  }
+    .nav-bar{
+        /* border: 2px solid yellow; */
+        display: flex;
+        gap: 10rem;
+        justify-content: space-between;
+    }
+  .me-auto {
+    /* border: 2px solid red; */
+    width: 70%;
+    margin-left: 15em;
+    display: flex;
+    justify-content: space-evenly;
+  
+  }
+}

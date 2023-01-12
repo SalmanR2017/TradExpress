@@ -1,0 +1,72 @@
+.getstarted2{
+ background: #EEEDEE;
+ width: 70%;
+ max-width: 600px;
+ margin: 1em auto;
+ padding: 1em;
+}
+  ::placeholder {
+    color: black;
+  }
+
+.getstarted2 h1{
+    font-size: 1.5em;
+}
+.getstarted2 input{
+    border-radius: 5px;
+    margin: .3em;
+    padding: 0.3em;
+    width: 90%;
+    border:1px solid #EEEDEE;
+}
+
+@media(min-width:500px){
+    .getstarted2{
+        padding: 2em;
+    }
+    .getstarted2 input{
+        padding: .8em;
+        margin: 0.5em;
+    }
+    .getstarted2 h1{
+        font-size: 2em;
+    }
+}
+.ind-buss{
+    display: flex;
+    margin: 2em 1em;
+
+}
+.ind-buss input{
+    border-radius: 15px;
+}
+@media(min-width:500px){
+    .ind-buss input{
+        padding: 0.5em;
+
+    }
+}
+
+.tc-txt p{
+    width: 70%;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 1.5em auto;
+}
+.tc-txt  a{
+   color: #7c20be;
+   text-decoration: none;
+}
+.gs-btn button{
+    width: 90%;
+    padding: .2em;
+    background-color:#7c20be;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+@media(min-width:500px){
+ .gs-btn button{
+    padding: .5em;
+ }   
+}

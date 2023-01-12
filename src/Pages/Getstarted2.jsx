@@ -1,21 +1,22 @@
 import React from "react";
+import "../Styles/getstarted2.css";
 import { Link } from "react-router-dom";
-import '../Styles/Getstarted.css'
 
-const GetStarted = () => {
+const GetStarted2 = () => {
   return (
-    <div className="getstarted">
+    <div className="getstarted2">
       <h1>Welcome</h1>
       <div className="ind-buss">
-        <Link to='/getstarted' style={{ backgroundColor: 'white'}}>Individual</Link>
-        <Link to='/getstarted2'>Bussiness</Link>
-        
+        <Link to="/getstarted">Individual</Link>
+        <Link to="/getstarted2" style={{ backgroundColor: "white" }}>
+          Bussiness
+        </Link>
       </div>
       <div>
         <input placeholder="Username"></input>
       </div>
       <div>
-        <input placeholder="Full Name"></input>
+        <input placeholder="Bussiness Name"></input>
       </div>
       <div>
         <input placeholder="Phone Number"></input>
@@ -44,4 +45,4 @@ const GetStarted = () => {
   );
 };
 
-export default GetStarted;
+export default GetStarted2;

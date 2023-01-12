@@ -1,0 +1,101 @@
+.login {
+  background: #eeedee;
+  width: 80%;
+  max-width: 600px;
+  margin: 1em auto;
+  padding: 3em;
+}
+.login h1 {
+  font-size: 1.5em;
+}
+.login input {
+  width: 100%;
+  margin: 20px auto;
+  border: #eeedee;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+.pass-wrd {
+  padding-bottom: 30px;
+}
+
+.pass-wrd div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding-bottom: 30px;
+}
+
+.pass-wrd div p {
+  margin: 0;
+}
+.pass-wrd a,
+.click {
+  color: #7c20be;
+  text-decoration: none;
+}
+.lbtn {
+  width: 100%;
+  background-color: #7c20be;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+.lbtn a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+@media (min-width: 600px) {
+  .pass-wrd {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+  }
+}
+
+/* 
+@media (min-width: 400px) {
+  .login {
+    padding: 2em;
+  }
+  .login h1 {
+    font-size: 2em;
+  }
+}
+.login div {
+  margin: 1.5em auto;
+  width: 90%;
+  font-size: 15px;
+}
+@media (min-width: 400px) {
+  .login div {
+    margin: 3em auto;
+  }
+  .login div input {
+    width: 80%;
+    border: 1px solid #eeedee;
+    padding: 0.5em;
+    color: black;
+  }
+}
+.pass-wrd {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  border: 2px solid red;
+}
+.pass-wrd p {
+  font-size: 12px;
+}
+.pass-wrd p img {
+  width: 20%;
+}
+.pass-wrd a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #7c20be;
+  font-weight: 500;
+} */

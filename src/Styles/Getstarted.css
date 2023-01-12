@@ -1,0 +1,82 @@
+.getstarted {
+  background: #eeedee;
+  width: 70%;
+  max-width: 600px;
+  margin: 1em auto;
+  padding: 1em;
+}
+.getstarted h1 {
+  font-size: 1.5em;
+}
+.getstarted input {
+  border-radius: 5px;
+  margin: 0.3em;
+  padding: 0.8em;
+  width: 90%;
+  border: 1px solid #eeedee;
+}
+/* .getstarted input */
+
+@media (min-width: 500px) {
+  .getstarted {
+    padding: 2em;
+  }
+  .getstarted input {
+    padding: 0.8em;
+    margin: 0.5em;
+  }
+
+  ::placeholder {
+    color: black;
+  }
+  .getstarted h1 {
+    font-size: 2em;
+  }
+}
+.ind-buss {
+  display: flex;
+  margin: 2em 1em;
+  background-color: #e4e4e4;
+  border-radius: 50px;
+}
+.ind-buss a {
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  /* margin: 0.3em; */
+  padding: 0.3em;
+  width: 70%;
+  /* border: 1px solid #eeedee; */
+  border-radius: 50px;
+}
+@media (min-width: 500px) {
+  .ind-buss a {
+    padding: 0.5em;
+  }
+}
+.ind-buss :nth-of-type(2) {
+  /* z-index:-5; */
+}
+.tc-txt p {
+  width: 70%;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 1.5em auto;
+}
+.tc-txt a {
+  color: #7c20be;
+  text-decoration: none;
+}
+.gs-btn button {
+  width: 90%;
+  padding: 0.2em;
+  background-color: #7c20be;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+@media (min-width: 500px) {
+  .gs-btn button {
+    padding: 0.5em;
+  }
+}

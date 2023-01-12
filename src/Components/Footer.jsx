@@ -4,12 +4,13 @@ import telegram from '../images/telegram.png'
 import whatsapp from '../images/whatsapp.png'
 import facebook from '../images/facebook.png'
 import copyright from '../images/copyright.png'
+import '../Styles/footer.css'
 
 const Footer = () => {
   return (
     <footer>
-      <div className="footer-container">
-        <div className="product">
+      <div className="footer">
+        <div className="inner-footer">
           <h4>Product</h4>
           <p>Bitcoin</p>
           <p>Alt</p>
@@ -17,12 +18,12 @@ const Footer = () => {
           <p>Refill</p>
           <p>P2P</p>
         </div>
-        <div className="learn">
+        <div className="inner-footer">
           <h4>Learn</h4>
           <p>Blog</p>
           <p>Help Center</p>
         </div>
-        <div className="contact">
+        <div className="inner-footer">
           <h4>Contact</h4>
           <p>hello@tradexpress.com</p>
           <p>support@tradexpress.com</p>
@@ -33,14 +34,14 @@ const Footer = () => {
             <img src={facebook} alt="" />
           </div>
         </div>
-        <div className="company">
+        <div className="inner-footer">
           <h4>Company</h4>
           <p>About us</p>
           <p>Careers</p>
           <p>Rates</p>
           <p>Mobile</p>
         </div>
-        <div className="legal">
+        <div className="inner-footer">
           <h4>Legal</h4>
           <p>Privacy Policy</p>
           <p>Anti-Money Laundering</p>

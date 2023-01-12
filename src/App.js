@@ -8,8 +8,11 @@ import LandingPage from "./Pages/LandingPage";
 import GetStarted from "./Pages/GetStarted";
 import Login from "./Pages/Login";
 import Buy from "./Pages/Buy";
+import GetStarted2 from "./Pages/Getstarted2";
 import { useEffect } from "react";
 import { useState } from "react";
+import Sell from "./Pages/Sell";
+import Verifym from "./Pages/Verifym";
 
 function App() {
   const [data, setData] = useState([]);
@@ -22,11 +25,11 @@ function App() {
       let response = await fetch(url);
       let dataGotten = await response.json();
       console.log(dataGotten);
-      setData(dataGotten.data)
+      setData(dataGotten.data);
       console.log(dataGotten.data);
-
     };
- 
+    
+
     getData("https://api.coinlore.net/api/tickers/?start=0&limit=5");
   }, []);
   return (
@@ -38,6 +41,9 @@ function App() {
           <Route path="/getstarted" element={<GetStarted />} />
           <Route path="/login" element={<Login />} />
           <Route path="/buy" element={<Buy />} />
+          <Route path="/getstarted2" element={<GetStarted2 />} />
+          <Route path="/sell" element={<Sell />} />
+          <Route path="/verifym" element={<Verifym />} />
         </Routes>
       </BrowserRouter>
     </div>
